@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/activity_main_nfc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.huashengmi.nfc.MainNFCActivity">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/textView"
+                app:layout_constraintLeft_toLeftOf="@+id/activity_main_nfc"
+                android:layout_marginStart="59dp"
+                tools:layout_constraintLeft_creator="1"
+                app:layout_constraintTop_toTopOf="@+id/activity_main_nfc"
+                app:layout_constraintRight_toRightOf="@+id/activity_main_nfc"
+                android:layout_marginEnd="59dp"
+                tools:layout_constraintRight_creator="1"
+                app:layout_constraintBottom_toBottomOf="@+id/activity_main_nfc"
+                app:layout_constraintHorizontal_bias="0.44"
+                app:layout_constraintVertical_bias="0.25" />
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
+
